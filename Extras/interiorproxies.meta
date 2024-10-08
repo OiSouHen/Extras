@@ -8,5 +8,8 @@
 
 		<!-- DELEGACIA -->
 		<Item>gabz_mrpd_milo_</Item>
+
+		<!-- MECANICA -->
+		<Item>gabz_imp_impexp_interior_placement_interior_1_impexp_intwaremed_milo_</Item>
 	</proxies>
 </SInteriorOrderData>

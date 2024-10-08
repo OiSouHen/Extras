@@ -50,4 +50,14 @@ CreateThread(function()
 
 		RefreshInterior(PoliceInterior)
 	end
+
+	RequestIpl("gabz_imp_impexp_interior_placement_interior_1_impexp_intwaremed_milo_")
+
+	local ImportInterior = GetInteriorAtCoords(941.00840000, -972.66450000, 39.14678000)
+	if IsValidInterior(ImportInterior) then
+		EnableInteriorProp(ImportInterior, "branded_style_set")
+		EnableInteriorProp(ImportInterior, "car_floor_hatch")
+
+		RefreshInterior(ImportInterior)
+	end
 end)
